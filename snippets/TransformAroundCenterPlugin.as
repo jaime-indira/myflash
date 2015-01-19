@@ -1,0 +1,1 @@
+﻿//TransformAroundCenterPluginimport com.greensock.*;import com.greensock.easing.*;import com.greensock.plugins.TweenPlugin;import com.greensock.plugins.TransformAroundCenterPlugin;TweenPlugin.activate([TransformAroundCenterPlugin]);TweenMax.from(mcVideo, 0.5, {alpha:0, transformAroundCenter:{scaleY:0, scaleX:0}, ease:Back.easeOut, delay:0});
